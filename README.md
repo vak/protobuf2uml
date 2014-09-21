@@ -31,7 +31,7 @@ I have no installer yet, so just create some working directory to put protobuf2u
 Usage
 -----
 
-PYTHONPATH=~/pkg/bin/protobuf python3 ~/pkg/protobuf/main.py path/to/my/proto.proto | dot -Tjpg >/tmp/uml.jpg
+    PYTHONPATH=~/pkg/bin/protobuf python3 ~/pkg/protobuf2uml/main.py -I import_path1:import_path2 path/to/my/proto.proto | dot -Tjpg >/tmp/uml.jpg
 
 
 Your contributions
