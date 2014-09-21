@@ -1,3 +1,5 @@
+// original version was taken from https://github.com/yesme/protobuf-parser/ and a bit adjusted
+ 
 parser grammar ProtoParser;
 
 options {

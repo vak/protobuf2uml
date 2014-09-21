@@ -1,5 +1,8 @@
 // Compatibility with Protocol Buffer defines
 // https://developers.google.com/protocol-buffers/docs/proto
+
+// This file was taken from https://github.com/yesme/protobuf-parser/ and a bit adjusted
+
 lexer grammar ProtoLexer;
 /*
 @header {
